@@ -1,0 +1,54 @@
+body {
+    background-color:#89b059;
+    margin: 20px;
+}
+
+h1{
+    font-family: Optima, sans-serif;
+}
+
+button{
+    border-radius: 6px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.horizontally-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.startpage-button{
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.choice-button{
+    background-color: rgb(145, 153, 58);
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-container{
+    background-color:  rgb(255, 255, 255);
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

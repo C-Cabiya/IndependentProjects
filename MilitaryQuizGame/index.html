@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Military Ranking Quiz</title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+
+    <div id = "title">
+        <br><br><br><br><br>
+        <div class = "horizontally-centered">
+            <h1>Military Insignia Ranking Quiz</h1>
+            <button class = "startpage-button" href = "index.html" onclick = "generateChoices()">LOAD GAME</button>
+            <script src="index.js"></script>
+        </div>
+    </div>
+
+    <div id = "game">
+        <br>
+        <!-- <h1>Military Ranks Quiz</h1> -->
+        <!-- Displays the military insignia -->
+        <div class = "image-container horizontally-centered">
+            <img id = "insignia" class = "image">
+        </div>
+
+        <h1 id = "test"></h1>
+
+        <!-- Choice buttons for the users to choose from -->
+        <div id = "option-buttons" class = "buttons-container">
+            <button id = "option-one" class = "choice-button"></button>
+            <button id = "option-two" class = "choice-button"></button>
+            <button id = "option-three" class = "choice-button"></button>
+            <button id = "option-four" class = "choice-button"></button>
+        
+            <script src="index.js"></script>
+        </div>
+
+        <div id = "result-container" style = "display: none;">
+            <h2 id = "result"></h2>
+            <button onclick = "generateChoices()" id = "reset-button"></button>
+        </div>
+    </div>
+
+</body>
